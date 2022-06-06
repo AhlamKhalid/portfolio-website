@@ -28,4 +28,58 @@
   --opacity-50: 0.5;
   --opacity-10: 0.1;
   --opacity-5: 0.05;
+
+  /* space */
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-72: 72px;
+
+  /* 
+  font
+  */
+
+  /* font family */
+  --font-inter: "Inter", sans-serif;
+
+  /* font size */
+  --font-14: 14px;
+  --font-16: 16px;
+  --font-20: 20px;
+  --font-24: 24px;
+  --font-32: 32px;
+
+  /* font weight */
+  --font-regular: 400;
+  --font-bold: 700;
+}
+
+/* globals */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-inter);
+  font-weight: var(--font-regular);
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
 }
