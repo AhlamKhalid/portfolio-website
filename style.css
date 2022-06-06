@@ -1,0 +1,31 @@
+/* custom properties */
+:root {
+  /* 
+    colors 
+  */
+
+  /* green theme */
+  --green-theme-light: 70, 20%, 94%;
+  --green-theme-dark: 203, 36%, 17%;
+  --green-theme-accent: 93, 57%, 37%;
+
+  /* blue theme */
+  --blue-theme-light: 228, 45%, 98%;
+  --blue-theme-dark: 249, 100%, 3%;
+  --blue-theme-accent: 184, 83%, 39%;
+
+  /* orange theme */
+  --orange-theme-light: 46, 100%, 97%;
+  --orange-theme-dark: 260, 7%, 16%;
+  --orange-theme-accent: 17, 90%, 56%;
+
+  /* white */
+  --white: 0, 0%, 100%;
+
+  /* opacity */
+  --opacity-100: 1;
+  --opacity-75: 0.75;
+  --opacity-50: 0.5;
+  --opacity-10: 0.1;
+  --opacity-5: 0.05;
+}
