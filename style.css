@@ -72,6 +72,7 @@ body {
 body {
   font-family: var(--font-inter);
   font-weight: var(--font-regular);
+  background-color: hsla(var(--green-theme-light), var(--opacity-100));
 }
 
 button {
@@ -82,4 +83,47 @@ button {
 
 a {
   text-decoration: none;
+}
+
+/* header */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-24);
+  border-bottom: 1px solid hsla(var(--white), var(--opacity-50));
+}
+
+.menu-icon {
+  width: 25px;
+  height: 25px;
+  color: hsla(var(--green-theme-dark), var(--opacity-100));
+}
+
+.theme-circles-container {
+  display: flex;
+}
+
+.theme-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  border: 3px solid hsla(var(--white), var(--opacity-100));
+}
+
+.theme-circle.green-theme {
+  background-color: hsla(var(--green-theme-light), var(--opacity-100));
+  position: relative;
+  left: 16px;
+  z-index: 1;
+}
+
+.theme-circle.blue-theme {
+  background-color: hsla(var(--blue-theme-light), var(--opacity-100));
+  position: relative;
+  left: 8px;
+}
+
+.theme-circle.orange-theme {
+  background-color: hsla(var(--orange-theme-light), var(--opacity-100));
 }
