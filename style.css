@@ -88,6 +88,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* header */
 .header {
   display: flex;
@@ -221,7 +225,9 @@ main
 /* videos */
 .video-container {
   border-radius: 4px;
-  margin-top: var(--space-24);
+  margin-top: var(--space-32);
+  display: flex;
+  flex-direction: column;
 }
 
 .bar {
@@ -243,4 +249,54 @@ main
   width: 100%;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+}
+
+/* projects */
+.project {
+  border: 1px solid hsla(var(--green-theme-dark), var(--opacity-10));
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: var(--space-32);
+}
+
+.project-img {
+  display: block;
+}
+
+.project-details {
+  padding: var(--space-16);
+  background-color: hsla(var(--white), var(--opacity-50));
+}
+
+.project-name {
+  font-size: var(--font-14);
+  color: hsla(var(--green-theme-dark), var(--opacity-75));
+  line-height: 26px;
+}
+
+.project-link {
+  display: flex;
+}
+
+.project-details .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--space-8);
+  margin-top: var(--space-8);
+}
+
+.project-details .youtube-icon,
+.project-details .github-icon {
+  color: hsla(var(--green-theme-dark), var(--opacity-100));
+}
+
+.project-details .youtube-icon {
+  width: 23px;
+  height: 23px;
+}
+
+.project-details .github-icon {
+  width: 30px;
+  height: 30px;
 }
