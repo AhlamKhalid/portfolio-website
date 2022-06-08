@@ -178,3 +178,26 @@ main
   margin-top: var(--space-32);
   display: inline-block;
 }
+
+/* stats */
+.stats {
+  margin-top: var(--space-72);
+}
+
+.stat-container {
+  text-align: center;
+  margin-top: var(--space-32);
+}
+
+.stat-container .number {
+  font-size: var(--font-32);
+  font-weight: var(--font-bold);
+  color: hsla(var(--green-theme-accent), var(--opacity-100));
+}
+
+.stat-container .description {
+  font-size: var(--font-16);
+  text-transform: uppercase;
+  margin-top: var(--space-16);
+  color: hsla(var(--green-theme-dark), var(--opacity-75));
+}
