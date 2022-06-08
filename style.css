@@ -201,3 +201,46 @@ main
   margin-top: var(--space-16);
   color: hsla(var(--green-theme-dark), var(--opacity-75));
 }
+
+/* shared */
+.section {
+  margin-top: var(--space-72);
+}
+
+.section-header {
+  color: hsla(var(--green-theme-dark), var(--opacity-100));
+
+  text-align: center;
+  font-size: var(--font-20);
+}
+
+.section-content {
+  margin-top: var(--space-32);
+}
+
+/* videos */
+.video-container {
+  border-radius: 4px;
+  margin-top: var(--space-24);
+}
+
+.bar {
+  background-color: hsla(var(--green-theme-dark), var(--opacity-75));
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.video-container .bar .youtube-icon {
+  width: 23px;
+  height: 23px;
+  color: hsla(var(--white), var(--opacity-100));
+  margin: var(--space-8) var(--space-16);
+}
+
+.youtube-player {
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
