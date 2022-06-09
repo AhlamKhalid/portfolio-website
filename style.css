@@ -92,6 +92,11 @@ img {
   max-width: 100%;
 }
 
+/* utility classes */
+.rtl {
+  direction: rtl;
+}
+
 /* header */
 .header {
   display: flex;
@@ -299,4 +304,26 @@ main
 .project-details .github-icon {
   width: 30px;
   height: 30px;
+}
+
+/* testimonials */
+.testimonial-container {
+  margin-top: var(--space-32);
+  background-color: hsla(var(--white), var(--opacity-50));
+  border-radius: 4px;
+  padding: var(--space-32);
+  text-align: center;
+}
+
+.testimonial-container .message-icon {
+  color: hsla(var(--green-theme-accent), var(--opacity-100));
+  width: 23px;
+  height: 23px;
+}
+
+.testimonial-container .testimonial-text {
+  font-size: var(--font-14);
+  color: hsla(var(--green-theme-dark), var(--opacity-75));
+  line-height: 26px;
+  margin-top: var(--space-8);
 }
