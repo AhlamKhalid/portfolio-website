@@ -370,3 +370,34 @@ main
   margin-top: var(--space-32);
   line-height: inherit;
 }
+
+/* social media */
+.social-media .section-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-16);
+}
+
+.social-link {
+  display: flex;
+}
+
+.social-link .iconify {
+  color: hsla(var(--green-theme-dark), var(--opacity-100));
+}
+
+.social-link .youtube-icon {
+  width: 35px;
+  height: 35px;
+}
+
+.social-link .github-icon {
+  width: 48px;
+  height: 48px;
+}
+
+.social-link .linkedin-icon {
+  width: 30px;
+  height: 30px;
+}
