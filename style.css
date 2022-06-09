@@ -97,6 +97,10 @@ img {
   direction: rtl;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* header */
 .header {
   display: flex;
@@ -326,4 +330,40 @@ main
   color: hsla(var(--green-theme-dark), var(--opacity-75));
   line-height: 26px;
   margin-top: var(--space-8);
+}
+
+/* contact */
+.form .field-label {
+  display: block;
+  color: hsla(var(--green-theme-dark), var(--opacity-100));
+  margin-top: var(--space-16);
+}
+
+.form .form-input {
+  background-color: hsla(var(--green-theme-dark), var(--opacity-5));
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  color: hsla(var(--green-theme-dark), var(--opacity-75));
+  padding: var(--space-16) var(--space-24);
+  font-size: inherit;
+  font-family: inherit;
+  outline: none;
+  margin-top: var(--space-16);
+}
+
+.form .form-input.textarea {
+  resize: none;
+}
+
+.form .send-cta {
+  background-color: hsla(var(--green-theme-accent), var(--opacity-100));
+  padding: var(--space-8) var(--space-24);
+  border-radius: 4px;
+  font-size: var(--font-14);
+  font-weight: var(--font-bold);
+  color: hsla(var(--white), var(--opacity-100));
+  text-transform: uppercase;
+  margin-top: var(--space-32);
+  line-height: inherit;
 }
