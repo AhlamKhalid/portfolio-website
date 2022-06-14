@@ -100,6 +100,10 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 /* utility classes */
 .rtl {
   direction: rtl;
@@ -133,6 +137,7 @@ img {
   height: 32px;
   border-radius: 100%;
   border: 2px solid hsla(var(--current-theme-dark), var(--opacity-50));
+  cursor: pointer;
 }
 
 .theme-circle.green-theme {
@@ -175,7 +180,7 @@ navigation overlay
   left: 0;
 }
 
-/* navigation links */
+/* navigation links: on small screen */
 .nav-overlay .navigation-link {
   color: hsla(var(--white), var(--opacity-100));
   display: block;
@@ -190,6 +195,11 @@ navigation overlay
   width: 34px;
   height: 34px;
   color: hsla(var(--white), var(--opacity-100));
+}
+
+/* navigation links: on large screen */
+.navigation-list {
+  display: none;
 }
 
 /* 
@@ -445,4 +455,23 @@ main
 .social-link .linkedin-icon {
   width: 30px;
   height: 30px;
+}
+
+/* media queries */
+@media (min-width: 768px) {
+  /* header */
+  #menu-icon {
+    display: none;
+  }
+
+  .navigation-list {
+    display: flex;
+    gap: var(--space-24);
+  }
+
+  .navigation-list .navigation-link {
+    color: hsla(var(--current-theme-dark), var(--opacity-100));
+    font-size: var(--font-14);
+    font-weight: var(--font-bold);
+  }
 }
