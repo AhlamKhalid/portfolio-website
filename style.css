@@ -132,7 +132,7 @@ img {
   width: 32px;
   height: 32px;
   border-radius: 100%;
-  border: 3px solid hsla(var(--white), var(--opacity-100));
+  border: 2px solid hsla(var(--current-theme-dark), var(--opacity-50));
 }
 
 .theme-circle.green-theme {
