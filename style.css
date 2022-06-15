@@ -324,6 +324,9 @@ main
   border-radius: var(--border-radius);
   overflow: hidden;
   margin-top: var(--space-32);
+  /* to make .project-details has flex grow */
+  display: flex;
+  flex-direction: column;
 }
 
 .project-img {
@@ -333,6 +336,7 @@ main
 .project-details {
   padding: var(--space-16);
   background-color: hsla(var(--white), var(--opacity-50));
+  flex-grow: 1;
 }
 
 .project-name {
@@ -484,5 +488,26 @@ main
   .stat-container {
     width: 33.33%;
     margin-top: 0;
+  }
+
+  /* shared */
+  .videos .section-content,
+  .projects .section-content,
+  .testimonials .section-content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-32);
+  }
+
+  .video-container,
+  .project,
+  .testimonial-container {
+    margin-top: 0;
+  }
+
+  /* contact */
+  .form {
+    max-width: 512px;
+    margin-inline: auto;
   }
 }
