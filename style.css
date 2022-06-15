@@ -474,4 +474,15 @@ main
     font-size: var(--font-14);
     font-weight: var(--font-bold);
   }
+
+  /* stats */
+  .stats {
+    display: flex;
+    justify-content: center;
+  }
+
+  .stat-container {
+    width: 33.33%;
+    margin-top: 0;
+  }
 }
