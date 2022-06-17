@@ -122,6 +122,11 @@ ul {
   border-bottom: 1px solid hsla(var(--white), var(--opacity-50));
 }
 
+/* to make #menu-icon same as icon size */
+#menu-icon {
+  display: flex;
+}
+
 .menu-icon {
   width: 25px;
   height: 25px;
