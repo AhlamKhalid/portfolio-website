@@ -294,7 +294,6 @@ main
 
 /* videos */
 .video-container {
-  border-radius: var(--border-radius);
   margin-top: var(--space-32);
 }
 
@@ -302,8 +301,8 @@ main
   background-color: hsla(var(--current-theme-dark), var(--opacity-75));
   display: flex;
   align-items: center;
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
 }
 
 .video-container .bar .youtube-icon {
@@ -315,8 +314,8 @@ main
 
 .youtube-player {
   width: 100%;
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
 }
 
 /* projects */
