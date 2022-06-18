@@ -296,8 +296,6 @@ main
 .video-container {
   border-radius: var(--border-radius);
   margin-top: var(--space-32);
-  display: flex;
-  flex-direction: column;
 }
 
 .bar {
