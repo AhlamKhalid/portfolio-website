@@ -272,7 +272,6 @@ main
 }
 
 .stat-container .description {
-  font-size: var(--font-16);
   text-transform: uppercase;
   margin-top: var(--space-16);
   color: hsla(var(--current-theme-dark), var(--opacity-75));
@@ -285,7 +284,6 @@ main
 
 .section-header {
   color: hsla(var(--current-theme-dark), var(--opacity-100));
-
   text-align: center;
   font-size: var(--font-20);
 }
