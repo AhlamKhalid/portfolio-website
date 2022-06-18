@@ -329,10 +329,6 @@ main
   flex-direction: column;
 }
 
-.project-img {
-  display: block;
-}
-
 .project-details {
   padding: var(--space-16);
   background-color: hsla(var(--white), var(--opacity-50));
