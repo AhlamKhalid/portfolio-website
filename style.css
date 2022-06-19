@@ -295,6 +295,9 @@ main
 /* videos */
 .video-container {
   margin-top: var(--space-32);
+  /* to remove additional space */
+  display: flex;
+  flex-direction: column;
 }
 
 .bar {
