@@ -478,7 +478,6 @@ main
   /* stats */
   .stats {
     display: flex;
-    justify-content: center;
   }
 
   .stat-container {
